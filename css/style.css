@@ -234,3 +234,53 @@ footer {
     background: #005db8;
     color: white;
 }
+
+/* ==========================
+   スマホ対応
+========================== */
+
+@media screen and (max-width: 768px) {
+
+    /* ナビ */
+
+    .global-nav ul {
+        flex-wrap: wrap;
+    }
+
+    .global-nav a {
+        padding: 12px 16px;
+        font-size: 0.9rem;
+    }
+
+    /* メイン */
+
+    .container {
+        padding: 15px;
+    }
+
+    /* アイコン */
+
+    .menu-card img {
+        width: 140px;
+    }
+
+    /* お知らせ */
+
+    .news-box {
+        padding: 20px;
+    }
+
+    .news-date {
+        display: block;
+        width: auto;
+        margin-bottom: 4px;
+    }
+
+    /* テーブル */
+
+    .taikai-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
