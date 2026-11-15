@@ -247,41 +247,44 @@ footer {
 
     /* ヘッダー */
 
-    .global-nav ul {
+.global-nav ul {
 
-        display: grid;
+    display: grid;
 
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
-        margin: 0;
+    gap: 0;
 
-        padding: 0;
+    margin: 0;
 
-        width: 100%;
+    padding: 0;
 
-        list-style: none;
-    }
+    list-style: none;
+}
 
-    .global-nav li {
+.global-nav li {
 
-        width: 100%;
-    }
+    margin: 0;
+}
 
-    .global-nav a {
+.global-nav a {
 
-        display: block;
+    display: block;
 
-        text-align: center;
+    text-align: center;
 
-        color: white;
+    color: white;
 
-        font-size: 0.9rem;
+    font-size: 0.9rem;
 
-        font-weight: bold;
+    font-weight: bold;
 
-        padding: 8px 5px;
+    padding: 12px 0;
 
-        line-height: 1.2;
+    line-height: 1;
+
+    white-space: nowrap;
+}
     }
 
     /* メイン */
