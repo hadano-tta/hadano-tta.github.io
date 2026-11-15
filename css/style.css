@@ -252,11 +252,9 @@ footer {
 
     .global-nav ul {
 
-        display: grid;
+        margin: 0;
 
-        grid-template-columns: repeat(2, 1fr);
-
-        width: 100%;
+        padding: 0;
     }
 
     .global-nav li {
@@ -266,17 +264,10 @@ footer {
 
     .global-nav a {
 
-        display: block;
-
-        text-align: center;
-
-        white-space: nowrap;
-
         padding: 8px 6px;
 
         font-size: 0.9rem;
-
-        line-height: 1.2;
+        
     }
 
     /* ÉÅÉCÉì */
