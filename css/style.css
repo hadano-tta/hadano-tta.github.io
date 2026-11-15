@@ -239,21 +239,21 @@ footer {
    大会年
 ========================== */
 
-.year-row td {
+.year-title {
 
-    background: #dbe9ff;
+    margin-top: 30px;
 
-    color: #20406b;
+    margin-bottom: 10px;
+
+    padding-left: 10px;
+
+    border-left: 6px solid #005db8;
+
+    color: #005db8;
+
+    font-size: 1.4rem;
 
     font-weight: bold;
-
-    text-align: center;
-
-    padding: 4px 12px;
-
-    font-size: 1rem;
-
-    letter-spacing: 1px;
 }
 
 /* ==========================
@@ -376,6 +376,15 @@ footer {
         overflow-x: auto;
 
         white-space: nowrap;
+    }
+
+    /* 大会年 */
+
+    .year-title{
+
+        font-size:1.2rem;
+
+        margin-top:20px;
     }
 
 }
