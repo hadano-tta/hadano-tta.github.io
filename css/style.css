@@ -288,16 +288,31 @@ footer {
 
     .menu-grid {
 
-        gap: 25px;
+        display: flex;
 
-        margin-bottom: 35px;
+        justify-content: space-between;
+
+        align-items: center;
+
+        gap: 10px;
+
+        margin-bottom: 30px;
+    }
+
+    .menu-card {
+
+        flex: 1;
     }
 
     .menu-card img {
 
-        width: 170px;
+        width: 100%;
 
-        max-width: 100%;
+        max-width: 110px;
+
+        display: block;
+
+        margin: auto;
     }
 
     /* ‚¨’m‚ç‚¹ */
