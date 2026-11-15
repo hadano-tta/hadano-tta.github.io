@@ -285,34 +285,38 @@ footer {
     }
 
     /* アイコン */
-
+    
     .menu-grid {
-
-        display: flex;
-
-        justify-content: space-between;
-
-        align-items: center;
-
-        gap: 10px;
-
+    
+        display: grid;
+    
+        grid-template-columns: repeat(3, 1fr);
+    
+        gap: 8px;
+    
         margin-bottom: 30px;
+    
+        align-items: start;
     }
-
+    
     .menu-card {
-
-        flex: 1;
-    }
-
-    .menu-card img {
-
+    
         width: 100%;
-
-        max-width: 110px;
-
+    
+        text-align: center;
+    }
+    
+    .menu-card img {
+    
+        width: 100%;
+    
+        max-width: 80px;
+    
+        height: auto;
+    
         display: block;
-
-        margin: auto;
+    
+        margin: 0 auto;
     }
 
     /* お知らせ */
