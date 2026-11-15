@@ -241,46 +241,95 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-    /* ナビ */
+    /* ナビゲーション */
 
     .global-nav ul {
-        flex-wrap: wrap;
+
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+
+        width: 100%;
+    }
+
+    .global-nav li {
+
+        width: 100%;
     }
 
     .global-nav a {
-        padding: 12px 16px;
-        font-size: 0.9rem;
+
+        display: block;
+
+        text-align: center;
+
+        white-space: nowrap;
+
+        padding: 14px 10px;
+
+        font-size: 0.95rem;
     }
 
     /* メイン */
 
     .container {
+
         padding: 15px;
+    }
+
+    /* バナー */
+
+    .banner {
+
+        margin-bottom: 25px;
     }
 
     /* アイコン */
 
+    .menu-grid {
+
+        gap: 25px;
+
+        margin-bottom: 35px;
+    }
+
     .menu-card img {
-        width: 140px;
+
+        width: 170px;
+
+        max-width: 100%;
     }
 
     /* お知らせ */
 
     .news-box {
+
         padding: 20px;
     }
 
+    .news-box h2 {
+
+        font-size: 1.6rem;
+    }
+
     .news-date {
+
         display: block;
+
         width: auto;
+
         margin-bottom: 4px;
     }
 
     /* テーブル */
 
     .taikai-table {
+
         display: block;
+
         overflow-x: auto;
+
         white-space: nowrap;
     }
+
 }
