@@ -270,6 +270,26 @@ footer {
 }
 
 /* ==========================
+   申込先
+========================== */
+
+.mail-divider {
+
+    border: none;
+
+    border-top: 1px solid #d9d9d9;
+
+    margin: 20px 0;
+}
+
+a.mail-link {
+
+    color: #005db8;
+
+    text-decoration: underline;
+}
+
+/* ==========================
    スマホ対応
 ========================== */
 
