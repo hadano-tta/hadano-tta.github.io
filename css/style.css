@@ -197,6 +197,21 @@ a {
     margin-bottom: 12px;
 }
 
+    
+.news-important {
+
+    color: #c0392b;
+
+    font-weight: bold;
+
+    text-decoration: underline;
+}
+
+.news-important:hover {
+
+    color: #e74c3c;
+}
+
 /* ==========================
    大会
 ========================== */
