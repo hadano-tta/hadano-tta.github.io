@@ -249,7 +249,7 @@ footer {
 }
 
 /* ==========================
-   大会年
+   大会
 ========================== */
 
 .year-title {
@@ -267,6 +267,20 @@ footer {
     font-size: 1.4rem;
 
     font-weight: bold;
+}
+
+.file-icon {
+
+    width: 36px;
+
+    height: auto;
+
+    transition: transform 0.2s;
+}
+
+.file-icon:hover {
+
+    transform: scale(1.1);
 }
 
 /* ==========================
